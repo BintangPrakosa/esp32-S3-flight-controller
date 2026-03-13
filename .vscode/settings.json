@@ -1,0 +1,10 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=d:\\1. REFRAME CINEMA\\zzz HARDWARE\\esp32-S3-flight-controller\\build"
+  ],
+  "idf.currentSetup": "C:\\Users\\hp\\esp\\v5.5.1\\esp-idf"
+}
