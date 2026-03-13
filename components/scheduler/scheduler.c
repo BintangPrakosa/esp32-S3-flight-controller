@@ -8,14 +8,14 @@
 
 #include "driver/gptimer.h"
 #include "esp_attr.h"
+#include "flight_control.h"
 
 static bool IRAM_ATTR timer_callback(
         gptimer_handle_t timer,
         const gptimer_alarm_event_data_t *edata,
         void *user_ctx)
 {
-    // Loop flight controller akan dipanggil di sini
-    // nanti: gyro read + PID + motor update
+    flight_control_loop();
 
     return pdFALSE;
 }
